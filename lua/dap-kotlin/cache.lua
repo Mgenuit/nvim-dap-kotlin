@@ -1,4 +1,4 @@
-local util = require("nvim-dap-kotlin.util")
+local util = require("dap-kotlin.util")
 
 local M = {}
 
