@@ -88,10 +88,6 @@ lua require('nvim-dap-kotlin').setup {
 To debug the closest test method above the cursor use you can select the `Closest Test` configuration.
 This support both normal and backtick enclosed method names.
 
-> Note: Currently testing with maven projects seems not to be supported by the kotlin-debug-adapter.
-> A merge request has been submitted with the [project][9] to fix this oversight.
-> As a workaround you can build from source and set *dap_command* to the resulting binary.
-
 ## Acknowledgement
 
 Thanks to [nvim-dap-go][6] for the inspiration.
